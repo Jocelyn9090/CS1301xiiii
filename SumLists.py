@@ -65,4 +65,21 @@ list_of_lists = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
 print(sum_lists(list_of_lists))
 
 
+ORRR
+
+def sum_lists(list_of_lists):
+    result = []
+
+    for listnumber in list_of_lists:
+
+        result.append(sum(listnumber))
+
+    return sum(result)
+
+
+orrrr
+
+def sum_lists(list_of_lists):
+   return sum([sum(lst) for lst in list_of_lists])
+
 
